@@ -50,44 +50,55 @@ li :hover {
   background-color: #f3c5ff;
   transition: 800ms;
 }
-form {
-  width: 40%;
-  margin: 0 auto;
-}
-.form input {
-  width: 50%;
-  padding: 5px 10px;
-  border: #845ec2;
-  border-radius: 5px 0px 0px 5px;
-  background-color: #00c9a7;
-}
-.form button {
-  width: 15%;
-  padding: 5px 10px;
-  background: linear-gradient(to right, #00c9a7 50%, #845ec2 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  color: white;
-  font-weight: 600;
-  border: #00c9a7;
-  cursor: pointer;
-  transition: all 800ms ease-out;
-  border-radius: 0px 5px 5px 0px;
-  margin-left: -5px;
-  margin-top: 20px;
-}
-.form button :hover {
-  background-position: left bottom;
-  color: white;
+body {
+  background-color: white;
+  text-align: center;
 }
 footer {
   background-color: #845ec2;
   text-align: center;
   color: white;
+  padding: auto;
 }
-.cosmeticos div {
+.container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+  padding: 50px;
 }
-.cosmeticos p {
-  text-align: right;
+.github {
+  width: 80px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+.linkedin {
+  width: 80px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+.email {
+  width: 80px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+.whatsapp {
+  width: 80px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+.instagram {
+  width: 80px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
 }
