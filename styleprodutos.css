@@ -6,12 +6,10 @@
 }
 body {
   padding: 10px;
-  margin: 10px;
 }
 header {
   background: white;
   margin: 0 auto;
-  padding: 10px;
   text-align: center;
 }
 
@@ -34,8 +32,8 @@ img {
   border-bottom-color: #f3c5ff;
   width: 100%;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  justify-content: center;
 }
 li {
   list-style: none;
@@ -51,44 +49,7 @@ li :hover {
   background-color: #f3c5ff;
   transition: 800ms;
 }
-.form {
-  width: 100%;
-  padding: 15px;
-  margin: 0 auto;
-}
-.form input {
-  width: 40%;
-  padding: 5px 10px;
-  border: #845ec2;
-  justify-content: right;
-  border-radius: 5px 0px 0px 5px;
-  background-color: #00c9a7;
-}
-.form button {
-  width: 5%;
-  padding: 5px 10px;
-  background: linear-gradient(to right, #00c9a7 50%, #845ec2 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  color: white;
-  font-weight: 600;
-  border: #00c9a7;
-  cursor: pointer;
-  transition: all 300ms ease-out;
-  border-radius: 0px 5px 5px 0px;
-  margin-left: -5px;
-  margin-top: 20px;
-}
-.form button :hover {
-  background-position: left bottom;
-  color: white;
-}
-#lupa {
-  width: 10px;
-  height: 10px;
-}
-
-.container {
+.produto1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,11 +60,50 @@ li :hover {
   border-color: #845ec2;
   margin: 0 auto;
 }
-.container p {
+.produto1 p {
   padding: 20px;
-  color: rgb(214, 55, 55);
 }
-.container button {
+.produto1 button {
+  background-color: #845ec2;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+}
+.produto2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  padding: 30px;
+  border: solid 1px;
+  border-color: #845ec2;
+  margin: 0 auto;
+}
+.produto2 p {
+  padding: 20px;
+}
+.produto2 button {
+  background-color: #845ec2;
+  color: white;
+  width: 100px;
+  cursor: pointer;
+}
+.produto3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  padding: 30px;
+  border: solid 1px;
+  border-color: #845ec2;
+  margin: 0 auto;
+}
+.produto3 p {
+  padding: 20px;
+}
+.produto3 button {
   background-color: #845ec2;
   color: white;
   width: 100px;
@@ -118,7 +118,7 @@ footer {
   text-align: center;
   color: white;
 }
-/*responsivo*/
+/*RESPONSIVO*/
 
 @media only screen and (max-width: 480px) {
   body {

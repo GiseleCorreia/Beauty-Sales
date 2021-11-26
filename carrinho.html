@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="carrinho.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>BeautySales.</title>
+    <title>Minhas Compras</title>
   </head>
   <body>
     <header>
@@ -31,25 +31,33 @@
       </div>
     </header>
     <main>
-      <div class="form">
-        <form action="">
-          <input type="text" placeholder="Buscar produto" />
-          <button><img src="./imagem/lupa.png" alt="" id="lupa" /></button>
-        </form>
-      </div>
-      <div class="container">
-        <a href="produtos.html" target="_blank"
+      <div class="produto1">
+        <a href="produtos.html"
           ><img src="./imagem/mascaraloreal.png" alt=""
         /></a>
-        <p>Super Oferta!</p>
-        <a href="produtos.html"><button>Comprar</button></a>
+        <p>Mascara L'oreal Professional Absolut Repair</p>
+        <p>R$ 169,90</p>
+        <a href="carrinho.html" target="_blank"><button>Comprar</button></a>
       </div>
       <div class="texto">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quasi
-        magni sed culpa voluptatum, autem molestias. Nulla vitae, soluta natus
-        fugit optio, asperiores consequuntur, a ut quam voluptas aliquam
-        reiciendis.
+        Uhuuuu, o produto está quase no seu carrinho :) Adicione os dados para
+        pagamento.
       </div>
+      <div class="pagamento">
+        <label for="fnome" class="nome"><b>Nome:</label></b> <br></br>
+      <input type="text" id="fnome" name="fname"><br></br>
+    </div>
+    <div class="pagamento">
+      <label for="fnumcartao" class="numcartao"><b>Número do Cartão</label></b><br></br>
+      <input type="text" id="fnumcartao" name="fnumcartao"><br></br>
+    </div>
+    <div>
+      <label for="endfatura" class="endfatura"><b>Endereço da Fatura:</label></b><br></br>
+      <input type="text" id="endfatura" name="endfatura" autocomplete="off">  <br></br>
+      <input type="submit" value="Enviar" class="enviar">
+      </div>
+      <p>Compra realizada com sucesso!</p>
+      <p>É muito bom ter você como cliente... Nosso muito obrigada e até a próxima :)</p>
     </main>
     <footer>
       <p>© 2021 Gisele Correira - Todos os direitos reservados.</p>

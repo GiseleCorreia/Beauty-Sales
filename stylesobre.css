@@ -7,11 +7,6 @@
 body {
   padding: 10px;
 }
-footer {
-  background-color: #845ec2;
-  text-align: justify;
-  color: white;
-}
 header {
   background: white;
   padding: 10px;
@@ -20,6 +15,7 @@ div {
   display: flex;
   justify-content: space-between;
   height: 20%;
+  flex-wrap: wrap;
 }
 .logo {
   width: 100%;
@@ -33,13 +29,14 @@ img {
   max-height: 250px;
 }
 .lista_footer {
-  font-size: 30px;
+  font-size: 20px;
   font-style: italic;
   list-style: none;
   display: flex;
   justify-content: space-between;
   border-bottom-style: solid;
   border-bottom-color: #f3c5ff;
+  flex-wrap: wrap;
 }
 li {
   list-style: none;
@@ -74,4 +71,43 @@ p {
 li :hover {
   color: #845ec2;
   background-color: #f3c5ff;
+}
+footer {
+  background-color: #845ec2;
+  text-align: justify;
+  color: white;
+}
+footer p {
+  text-align: center;
+  width: auto;
+  padding: 2px;
+}
+/* RESPONSIVO */
+@media only screen and (max-width: 480px) {
+  body {
+    margin: 0;
+  }
+  header {
+    width: 360px;
+    padding: 5px;
+  }
+  .logo {
+    width: 340px;
+    padding: 5px;
+  }
+  form {
+    width: 90%;
+  }
+  .lista_footer {
+    font-size: 20px;
+  }
+  .texto {
+    text-align: justify;
+  }
+  .container div {
+    align-items: center;
+  }
+  main {
+    width: 100%;
+  }
 }
